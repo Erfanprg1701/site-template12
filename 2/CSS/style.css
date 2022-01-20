@@ -1,0 +1,283 @@
+@font-face {
+    font-family:  'sans';
+    src : url('../fonts/Sans\ a4fran3.eot') format('eot'),
+    url('../fonts/Sans\ a4fran3.ttf')  format('truetype'), 
+    url('../fonts/Sans\ a4fran3.woff') format('woff'), 
+ 
+} 
+
+body {
+    font-family: 'sans';
+    direction: rtl;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+ }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.nav-right ul {
+    display: flex;
+}
+
+.nav-right a {
+    color: black;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left img {
+    width: 60px;
+    height: 60px;
+    margin-right: 45px ;
+}
+
+.nav-left a {
+    font-size: 20px;
+    margin: 0 10px;
+    color: black;
+}
+
+ .header-text {
+     display: flex; 
+     justify-content: center;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.slide {
+    background-image: url(../images/slide.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+}
+
+.slide span {
+    z-index: 1;
+    position: absolute;
+    left: 40%;
+    top: 39%;
+    font-size: 150px;
+    font-weight: 800;
+    color: rgba(75, 75, 75,0.2);
+}
+
+.slide-text {
+    z-index: 2;
+    position: absolute;
+    left: 5%;
+    top: 45%;
+}
+
+.slide-text h1 {
+    font-size: 100px;
+    font-weight: 800;
+    margin-left: 50px;
+    color: #1b1b1b;
+}
+
+.slide-text h2{
+    font-weight: 900;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-right: 300px;
+    color: #505050;
+}
+
+/* main */
+
+#handing1 {
+    margin-top: 50px;
+    width: 100%;
+}
+.handing1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.handing-left {
+    background-color: #b45a10;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.handing-left h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.handing-center img {
+    width: 550px;
+    height: 300px;
+}
+
+.handing-right {
+    margin-right: 40px;
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.handing-right h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #b45a10;
+}
+
+.handing-right p {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.handing-right a {
+    padding-top: 7px;
+    margin-right: 350px;
+    width: 70px;
+    height: 35px;
+    color: white;
+    background-color: #b45a10;
+    text-align: center;
+    font-size: 22px;
+}
+
+#handing2 {
+    width: 100%;
+}
+.handing2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.handing-img{
+    background-image: url(../images/hang.jpg);
+    background-size: cover;
+    width: 68%;
+    height: 723px;
+    margin-right: 40px;
+}
+
+.handing-shop {
+    width: 28%;
+    margin-top: 20px;
+    display: flex;
+}
+.handing-shop ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+
+.handing-shop li {
+    width: 50%;
+    box-shadow: 3px 4px 3px gray;
+}
+
+.handing-shop img {
+    margin-top: 10px;
+    width: 150px;
+    height: 260px;
+}
+
+.handing-shop h3 {
+    margin-top: 15px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.handing-shop h5 {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    height: 10px;
+}
+
+.handing3 .right2 {
+    background-color: #294152;
+    color: white;
+    width: 470px;
+    margin-right: 30px;
+}
+
+.handing3 .center2 {
+    width: 445px;
+}
+.handing3 .center2 h1{
+    color: #294152;
+}
+.handing3 .center2 a{
+    background-color: #294152;
+
+}
+
+.handing3 .left2 {
+    width: 480px;
+}
+
+
+.handing3 .left2 img{
+    width: 300px;
+    margin-right: 100px;
+}
+
+
+.handing4 .img3 {
+    background-image: url(../images/5.jpg);
+    width: 67%;
+    margin-left: 20px;
+
+}
+
+.handing4 .shop3 {
+    margin-right: 50px;
+}
+
+#counters {
+    width: 100%;
+    /* margin: 0 40px; */
+    height: 300px;
+    background-color: #4c728d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.counters {
+    display: flex;
+}
+.counters-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 150px;
+    line-height: 2.5;
+    font-size: 27px;
+    font-weight: 600;
+}
